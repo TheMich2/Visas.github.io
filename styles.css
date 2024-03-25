@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #4270ec;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+#banner {
+    background-image: url('visa-banner.jpg');
+    background-size: cover;
+    color: #0f0f0f;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#servicios {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.servicio {
+    margin-bottom: 30px;
+}
+
+.servicio img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #0c34bb;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+  
+}
+
+.redes-sociales ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.redes-sociales ul li {
+    display: inline;
+    margin: 0 10px;
+    border-left: 3px solid rgb(255, 255, 255);
+    padding-left: 7px;
+}
+
+.redes-sociales ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.info-contacto p {
+    margin: 5px 0;
+}
